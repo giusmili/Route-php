@@ -1,4 +1,4 @@
-# PHP : un système de route pour la navigation des pages 🚀
+# PHP : un système de route 🚀
 ```
 /projet/
 │── /pages/
