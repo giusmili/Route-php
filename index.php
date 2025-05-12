@@ -17,8 +17,10 @@
     ?>
 
     <main>
-        <?php include_once __DIR__ . "/pages/$page.php"; ?>
+        <?php include_once __DIR__ . "/pages/$page.php" ?>
     </main>
-
+    <footer>
+        <p>&copy; - PHP - 2025</p>
+    </footer>
 </body>
 </html>
