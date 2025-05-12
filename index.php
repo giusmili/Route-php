@@ -1,5 +1,7 @@
 <?php
     include_once __DIR__ . "/controller/BaseController.php"; 
+    /* include_once __DIR__ . "/controller/Route.php";  */
+    /* $page = Routes::getRoute(); */
 ?>
 <!DOCTYPE html>
 <html lang="fr">
