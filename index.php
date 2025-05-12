@@ -10,13 +10,9 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="?page=home">Accueil</a></li>
-            <li><a href="?page=about">À propos</a></li>
-            <li><a href="?page=contact">Contact</a></li>
-        </ul>
-    </nav>
+    <?php
+        include_once __DIR__ . "/routes/route.php";
+    ?>
 
     <main>
         <?php include_once __DIR__ . "/pages/$page.php"; ?>
